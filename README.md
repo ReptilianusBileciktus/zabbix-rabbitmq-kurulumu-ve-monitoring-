@@ -30,7 +30,7 @@ RabbitMQ kurduğunuz ortama aşağıdaki linkten erişebilirsiniz.
 >http://ip_adresiniz:15672
 
 ![alt text](https://r.resimlink.com/XIun3Qp.png)
-<img src="1" width="auto">
+<img src="https://github.com/ReptilianusBileciktus/zabbix-rabbitmq-kurulumu-ve-monitoring-/blob/3bd7fc125ea42b4c2f8271a17fac9f652a4b5d3b/1.png" width="auto">
 
 Ardından yeni bir kullanıcı oluşturmalıyız Bunun için şu komutu kullanacağız:
 >-rabbitmqctl add_user juda juda
