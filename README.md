@@ -61,7 +61,7 @@ You can export the current file by clicking **Export to disk** in the menu. You 
 
 Zabbix arayüzünden yeni bir host ekleme işlem yapmalıyız. Aşağıdaki adımları izlemelisiniz.
 
-<img src="https://github.com/ReptilianusBileciktus/zabbix-rabbitmq-kurulumu-ve-monitoring-/blob/3bd7fc125ea42b4c2f8271a17fac9f652a4b5d3b/3.png" width="auto">
+<img src="https://github.com/ReptilianusBileciktus/zabbix-rabbitmq-kurulumu-ve-monitoring-/blob/590b72e7df54132c6de7d95b7757ff8a48d19247/3.jpg" width="auto">
 
 Burada ilgili template'leri seçin ve agent kısmına RabbitMQ adresinizi yazmalısınız . Buradaki hostname ifadesini nereden aldığımı bir sonraki görselde görebilirsiniz:
 
