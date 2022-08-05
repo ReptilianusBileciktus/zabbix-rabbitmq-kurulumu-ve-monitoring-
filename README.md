@@ -29,7 +29,6 @@ RabbitMQ mesajlarını görüntüleyebilmek için bir plugin geliştirilmiştir.
 RabbitMQ kurduğunuz ortama aşağıdaki linkten erişebilirsiniz.
 >http://ip_adresiniz:15672
 
-![alt text](https://r.resimlink.com/XIun3Qp.png)
 <img src="https://github.com/ReptilianusBileciktus/zabbix-rabbitmq-kurulumu-ve-monitoring-/blob/3bd7fc125ea42b4c2f8271a17fac9f652a4b5d3b/1.png" width="auto">
 
 Ardından yeni bir kullanıcı oluşturmalıyız Bunun için şu komutu kullanacağız:
@@ -42,7 +41,8 @@ Ardından yeni bir kullanıcı oluşturmalıyız Bunun için şu komutu kullanac
 
 juda yerine kullanıcı adınızı girmeniz gerekiyor ardından kullanıcınız ile giriş yapabilirsiniz.
 
-![enter image description here](https://r.resimlink.com/smgiYaEy5.png)
+<img src="https://github.com/ReptilianusBileciktus/zabbix-rabbitmq-kurulumu-ve-monitoring-/blob/3bd7fc125ea42b4c2f8271a17fac9f652a4b5d3b/2.png" width="auto">
+
 
 
 ## Zabbix İle RabbitMQ Monitoring İşlemi
@@ -61,20 +61,20 @@ You can export the current file by clicking **Export to disk** in the menu. You 
 
 Zabbix arayüzünden yeni bir host ekleme işlem yapmalıyız. Aşağıdaki adımları izlemelisiniz.
 
-![enter image description here](https://r.resimlink.com/GvcpZA6olE.jpg)
+<img src="https://github.com/ReptilianusBileciktus/zabbix-rabbitmq-kurulumu-ve-monitoring-/blob/3bd7fc125ea42b4c2f8271a17fac9f652a4b5d3b/3.png" width="auto">
 
 Burada ilgili template'leri seçin ve agent kısmına RabbitMQ adresinizi yazmalısınız . Buradaki hostname ifadesini nereden aldığımı bir sonraki görselde görebilirsiniz:
 
-![enter image description here](https://r.resimlink.com/jtoPeTn60AU.png)
+<img src="https://github.com/ReptilianusBileciktus/zabbix-rabbitmq-kurulumu-ve-monitoring-/blob/3bd7fc125ea42b4c2f8271a17fac9f652a4b5d3b/4.png" width="auto">
 
 RabbitMQ arayüzünden giriş yaptıktan sonra sağ tarafta cluster name yazmaktadır. Bir önceki görselde hostname kısmına rabbit@ ifadesinden sonraki ismi yazmalısınız.
 
-![enter image description here](https://r.resimlink.com/T2hq6Qjdbxn5.png)
+<img src="https://github.com/ReptilianusBileciktus/zabbix-rabbitmq-kurulumu-ve-monitoring-/blob/3bd7fc125ea42b4c2f8271a17fac9f652a4b5d3b/5.png" width="auto">
 
 Ardından makrolarda user ve password girmelisiniz ve cluster name olarak az önceki görselde gördüğünüz rabbit@ ifadesindeki rabbit ifadesini  yazmalısınız. 
 
-![enter image description here](https://r.resimlink.com/9ZNYyEkB.png)
+<img src="https://github.com/ReptilianusBileciktus/zabbix-rabbitmq-kurulumu-ve-monitoring-/blob/3bd7fc125ea42b4c2f8271a17fac9f652a4b5d3b/6.png" width="auto">
 
 Ardından host eklenmiş olacaktır ve belirli bir aradan sonra item'ler çekilecektir.
 
-![enter image description here](https://r.resimlink.com/2ntb7.png)
+<img src="https://github.com/ReptilianusBileciktus/zabbix-rabbitmq-kurulumu-ve-monitoring-/blob/3bd7fc125ea42b4c2f8271a17fac9f652a4b5d3b/7.png" width="auto">
