@@ -29,7 +29,7 @@ RabbitMQ mesajlarını görüntüleyebilmek için bir plugin geliştirilmiştir.
 RabbitMQ kurduğunuz ortama aşağıdaki linkten erişebilirsiniz.
 >http://ip_adresiniz:15672
 
-![enter image description here](https://r.resimlink.com/XIun3Qp.png)
+![alt text](https://r.resimlink.com/XIun3Qp.png)
 
 
 Ardından yeni bir kullanıcı oluşturmalıyız Bunun için şu komutu kullanacağız:
