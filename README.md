@@ -37,6 +37,8 @@ Ardından yeni bir kullanıcı oluşturmalıyız Bunun için şu komutu kullanac
  juda kullanıcı adında ve juda parolası ile giriş yapabileceğimiz bir kullanıcı oluşturduk.
 Şimdi bu kullanıcıyı Administrator olarak etiketleyip tüm yetkilere sahip olmasını sağlayalım.
 >-rabbitmqctl set_user_tags juda administrator
+
+
 >-rabbitmqctl set_permissions -p / juda "." "." ".*"
 
 juda yerine kullanıcı adınızı girmeniz gerekiyor ardından kullanıcınız ile giriş yapabilirsiniz.
